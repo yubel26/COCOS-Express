@@ -1,13 +1,13 @@
 body {
-    /* background-image: url("images/cocosBackground2.webp"); */
-    background-color: black;
+    background-image: url("images/palmTreeLeaves.jpg");
+    /* background-color: black; */
     background-repeat: no-repeat;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
   }
 
   #navbar {
