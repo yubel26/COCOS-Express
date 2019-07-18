@@ -95,3 +95,8 @@ body {
       width: 100%;
     }
   }
+  @import url('https://fonts.googleapis.com/css?family=Lobster|Permanent+Marker&display=swap');
+  .navbar-brand{
+    font-family: 'Lobster', cursive;
+    
+  }
