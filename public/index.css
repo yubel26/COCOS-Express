@@ -8,6 +8,7 @@ body {
   background-size: cover;
   margin-left: 200px;
   margin-right: 200px;
+  font-family: 'Cinzel', serif;
   }
 
   #navbar {
@@ -59,7 +60,7 @@ body {
   
   /* Pricing header */
   .price .header {
-    background-color: #111;
+    background-color: #111;   
     color: white;
     font-size: 25px;
   }
@@ -96,6 +97,7 @@ body {
     }
   }
   @import url('https://fonts.googleapis.com/css?family=Lobster|Permanent+Marker&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Cinzel|Frank+Ruhl+Libre|Varela+Round|Volkhov&display=swap');
   .navbar-brand{
     font-family: 'Lobster', cursive;
     
@@ -127,4 +129,64 @@ body {
   border-bottom:5px solid black;
   padding-bottom: 5px; 
 }
+
+.navbar {
+  height: 100px;
+  font-size: 25px;
+  opacity: 0.9;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  text-align: center;
+}
   
+/* contact us page */
+
+#contactUsInfo{
+  font-size: 35px;
+  background-color: white;
+}
+/* home page */
+
+.display-4 {
+  text-align: center;
+  font-size: 70px;
+}
+
+.jumbotron {
+  opacity: 1.0;
+  background: none;
+  color: white;
+  font-size: 30px;
+}
+
+#hopePageImg {
+  display: block;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#modal-form {
+        visibility: hidden;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 6;
+        /* Sit on top */
+        padding-top: 100px;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+}

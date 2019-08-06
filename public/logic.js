@@ -1,1 +1,7 @@
-console.log("hello")
+console.log("hello");
+
+
+
+$("#HomeContactUs").click(function(){
+    $("#modal-form").show();
+});

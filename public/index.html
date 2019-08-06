@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Coco's Express</title>
+    <title>CoCos Express</title>
+    <script src="jquery-3.4.1.min.js"></script>
     <script src="logic.js"></script> 
+    <script src="https://kit.fontawesome.com/46813a6d10.js"></script>
+  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
+ 
+
+    
     <div id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Coco's Express</a>
+                <a class="navbar-brand" href="#">CoCos Express</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -22,15 +28,35 @@
                     <a class="nav-item nav-link active" href="AboutUs.html">About Us </a>
                     <a class="nav-item nav-link active" href="MeetYourDrivers.html">Meet Your Drivers</a>
                     <a class="nav-item nav-link active" href="Pricing.html">Pricing</a>
-                    <a class="nav-item nav-link active" href="OurPolicy.html">Our Policy</a>
                     <a class="nav-item nav-link active" href="ContactUs.html">Contact Us</a>
                   </div>
                 </div>
               </nav>
             </div>
+
+
+            <div id="modal-form">
+    
+              <h2 id="modal-form-header">Welcome to the Disaster Relief App</h2>
+              <p id="modal-form-text">We are a small team of developers who have been affected by natural Disasters and wanted to discover a new way to provide help during times of distress.     When we are in a Natural disaster and all type of communications are down the last thing we want to be worried about is if rescuers will pass by your neighborhood or if they will figure out if you need special help.
+              The Disaster Relief App was created to help the rescuers locate and give the help everyone one needs more efficient.
+              
+                In the next Step we will be asking only the most critical inforamtion that rescures need :
+              </p>
+              <ul>
+                <li>Address</li>
+                <li>Name</li>
+                <li>Age</li>
+                <li>Pets</li>
+                <li>Disability or Special Condition</li>
+                <li>Picture (optional)</li>
+              </ul>
+              </div>
+  
     
               <div class="jumbotron">
-                    <h1 class="display-4">Welcome to Coco's express </h1>
+                    <h1 class="display-4">Welcome to CoCos Express </h1>
+                    <!-- <img id="hopePageImg" src="images/side-view-van.jpg" height="500" width="700"> -->
                     <p class="lead">We are a south florida based company who specialize in Transportation to almost anywhere in florida</p>
                     <p>This incluides and not limited to:</p>
                     <ul >
@@ -42,7 +68,9 @@
                     </ul>
                     <hr class="my-4">
                     <p>Click on the botton below to get started</p>
-                    <a class="btn btn-primary btn-lg" href="ContactUs.html" role="button">Contact Us</a>
+                    
                   </div>
+
+                  <button type="button" id="HomeContactUs" class="btn btn-secondary btn-lg btn-block">Block level button</button>
 </body>
 </html>
